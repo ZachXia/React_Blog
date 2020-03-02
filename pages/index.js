@@ -4,7 +4,7 @@ import Header from '../components/Header'
 import Author from '../components/Author'
 import Advert from '../components/Advert'
 import Footer from '../components/Footer'
-import {Row, Col, List, Icon} from 'antd'
+import {Row, Col, List, Icon, Affix} from 'antd'
 import Head from 'next/head'
 import Link from 'next/link'
 import servicePath from '../config/apiUrl'
@@ -20,7 +20,10 @@ function Home(list){
                 <title>Home</title>
             </Head>
 
-            <Header></Header>
+            <Affix>
+                <Header />
+            </Affix>
+            
 
             <Row className='comm-main' type='flex' justify='center'>
                 <Col className='comm-left' xs={24} sm={24} md={16} lg={18} xl={14} >
