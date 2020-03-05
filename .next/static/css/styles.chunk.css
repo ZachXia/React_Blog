@@ -24577,7 +24577,7 @@ body{
   background-color: #f6f6f6;  
 }
 
-.comm-left{
+.comm-right{
   background-color: #FFF;
   padding:.3rem;
   border-radius: .3rem;
@@ -24585,8 +24585,9 @@ body{
 }
 
 .comm-box{
-  background-color: #FFF;
-  margin-left: .5rem;
+  background-color: #E1F0ff;
+  margin-right: .5rem;
+  margin-bottom: .5rem;
   padding:.3rem;
   border-radius: .3rem;
   border:1px solid #eee;
@@ -24595,6 +24596,12 @@ body{
 .comm-main{
   margin-top: .5rem;
   /* margin-left: 8rem; */
+}
+
+.bread-div{
+  padding: .5rem;
+  border-bottom:1px solid #eee;
+  background-color: #e1f0ff;
 }
 
 .list-title{
@@ -24616,7 +24623,9 @@ body{
 }
 
 .header{
-    background-color: #fff;
+    /* position: fixed; */
+    width: 100%;
+    background-color: #1199C4;
     padding: .4rem;
     overflow: hidden;
     height: 3.2rem;
@@ -24624,7 +24633,7 @@ body{
 }
 
 .header-logo{
-    color: #1e90ff;
+    color: #DCF2F8;
     font-size: 1.4rem;
     text-align: left;
 }
@@ -24636,15 +24645,7 @@ body{
     padding-left: .3rem;
 }
 
-.ant-menu{
-    line-height: 2.8rem;
-}
 
-.ant-menu-item{
-    font-size: 1rem !important;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
 .author-div{
     text-align: center;
     padding: 1rem;
@@ -24663,30 +24664,68 @@ body{
     margin-left: .5rem;
     margin-right: .5rem;
 }
-.ad-div{
-    margin-top: .5rem;
-}
-.ad-div div{
-    border-radius: .3rem;
-    margin-bottom: .2rem;
-    overflow: hidden;
-}
-.logo {
-    height: 32px;
-    background: rgba(255, 255, 255, 0.2);
-    margin: 16px;
-  }
-  
-.site-layout-background {
-    background: #fff;
-  }
 .footer-div{
     text-align: center;
     width: 100%;
     padding: 1rem;
     color: #888;
 }
+.ant-menu, .ant-menu-submenu > .ant-menu {
+    background-color: #E1F0ff;
+}
 
+.ant-menu-item{
+    font-size: 1rem !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+    background-color: #E1F0ff;
+}
+
+.ant-menu-submenu-title{
+    font-size: 1rem !important;
+}
+pre{
+    display: block;
+    background-color: #283646 !important;
+     padding: .5rem !important;
+     overflow-y: auto;
+     font-weight: 300;
+     font-family: Menlo, monospace;
+     border-radius: .3rem;
+}
+
+pre >code{
+    border:0px !important;
+    background-color: #283646 !important;
+    color:#FFF;
+
+}
+code {
+    display: inline-block ;
+    background-color:#f3f3f3;
+    border:1px solid #fdb9cc;
+    border-radius:3px;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color:#4f4f4f;
+    margin: 0px 3px;
+
+}
+
+.list-context img{
+   width:100% ;
+   border-radius:5px;
+   border:1px solid #f0f0f0;
+   max-width:1000px !important;
+   display: block;
+   margin:8px  auto ;
+
+}
 .bread-div{
     padding: .5rem;
     border-bottom:1px solid #eee;
@@ -24704,14 +24743,39 @@ body{
     padding: 1.3rem;
     font-size: 1rem;
 }
-code {
-    display: block ;
-     background-color:#f3f3f3;
+pre{
+    display: block;
+    background-color:#f3f3f3;
      padding: .5rem !important;
      overflow-y: auto;
      font-weight: 300;
      font-family: Menlo, monospace;
      border-radius: .3rem;
+}
+pre{
+    background-color: #283646 !important;
+}
+pre >code{
+    border:0px !important;
+    background-color: #283646 !important;
+    color:#FFF;
+
+}
+code {
+    display: inline-block ;
+    background-color:#f3f3f3;
+    border:1px solid #fdb9cc;
+    border-radius:3px;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color:#4f4f4f;
+    margin: 0px 3px;
+
+}
+
+svg{
+    max-width: 100%;
 }
 
 .title-anchor{
@@ -24720,8 +24784,11 @@ code {
     margin: 0rem !important;
     height: auto !important;
     line-height: 1.2rem !important;
-    font-size: .9rem !important;
+    font-size: .7rem !important;
     border-bottom: 1px dashed #eee;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
 }
 .active{
     color:rgb(30, 144, 255) !important;
@@ -24732,6 +24799,27 @@ code {
     border-bottom: 1px solid rgb(30, 144, 255);
 
 }
+.article-menu{
+    font-size:12px;
+}
+iframe{
+    height: 34rem;
+}
+.detailed-content  img{
+    max-width: 100%;
+    border:1px solid #f3f3f3;
+}
+.title-level3{
+    display: none !important;
+}
+.ant-anchor-link-title{
+    font-size: 12px !important;
+}
+.ant-anchor-wrapper{
+    padding: 5px !important;
+    background-color: #E1F0ff;
+}
+
 .markdown-navigation {
   font-size: 14px;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Arial", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;

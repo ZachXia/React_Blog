@@ -93,67 +93,6 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./components/Advert.js":
-/*!******************************!*\
-  !*** ./components/Advert.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _public_style_components_Advert_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../public/style/components/Advert.css */ "./public/style/components/Advert.css");
-/* harmony import */ var _public_style_components_Advert_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_public_style_components_Advert_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "D:\\Web\\ReactProjects\\react_blog\\blog\\components\\Advert.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-function Advert() {
-  return __jsx("div", {
-    className: "ad-div comm-box",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, " ", __jsx("img", {
-    src: "http://blogimages.jspang.com/WechatIMG12.jpeg",
-    width: "100%",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }), " "), __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, " ", __jsx("img", {
-    src: "http://newimg.jspang.com/shensanyuan.jpg",
-    width: "100%",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }), " "));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Advert);
-
-/***/ }),
-
 /***/ "./components/Author.js":
 /*!******************************!*\
   !*** ./components/Author.js ***!
@@ -300,44 +239,47 @@ function Footer() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/row */ "antd/lib/row");
-/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_row__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var antd_lib_menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/menu */ "antd/lib/menu");
-/* harmony import */ var antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var antd_lib_icon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/icon */ "antd/lib/icon");
-/* harmony import */ var antd_lib_icon__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_icon__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/col */ "antd/lib/col");
-/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_col__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _public_style_components_header_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../public/style/components/header.css */ "./public/style/components/header.css");
-/* harmony import */ var _public_style_components_header_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_public_style_components_header_css__WEBPACK_IMPORTED_MODULE_5__);
-
+/* harmony import */ var antd_lib_affix__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/affix */ "antd/lib/affix");
+/* harmony import */ var antd_lib_affix__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_affix__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/row */ "antd/lib/row");
+/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_row__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/col */ "antd/lib/col");
+/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_col__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _public_style_components_header_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../public/style/components/header.css */ "./public/style/components/header.css");
+/* harmony import */ var _public_style_components_header_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_public_style_components_header_css__WEBPACK_IMPORTED_MODULE_4__);
 
 
 
 var _jsxFileName = "D:\\Web\\ReactProjects\\react_blog\\blog\\components\\Header.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 
 
 
 function Header() {
-  return __jsx("div", {
+  return __jsx(antd_lib_affix__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, __jsx("div", {
     className: "header",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 11
     },
     __self: this
-  }, __jsx(antd_lib_row__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  }, __jsx(antd_lib_row__WEBPACK_IMPORTED_MODULE_1___default.a, {
     type: "flex",
     justify: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 12
     },
     __self: this
-  }, __jsx(antd_lib_col__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  }, __jsx(antd_lib_col__WEBPACK_IMPORTED_MODULE_2___default.a, {
     xs: 24,
     sm: 24,
     md: 10,
@@ -345,17 +287,24 @@ function Header() {
     xl: 12,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 13
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
     },
     __self: this
   }, __jsx("span", {
     className: "header-logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 14
     },
     __self: this
-  }, "ZachXia")), __jsx(antd_lib_col__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  }, "ZachXia"))), __jsx(antd_lib_col__WEBPACK_IMPORTED_MODULE_2___default.a, {
     xs: 0,
     sm: 0,
     md: 14,
@@ -363,59 +312,10 @@ function Header() {
     xl: 6,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 17
     },
     __self: this
-  }, __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    mode: "horizontal",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
-    key: "home",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, __jsx(antd_lib_icon__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    type: "home",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }), "\u9996\u9875"), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
-    key: "video",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, __jsx(antd_lib_icon__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    type: "youtube",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }), "\u89C6\u9891"), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
-    key: "life",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, __jsx(antd_lib_icon__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    type: "smile",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }), "\u751F\u6D3B")))));
+  }))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -552,7 +452,9 @@ __webpack_require__.r(__webpack_exports__);
 let ipUrl = 'http://127.0.0.1:7001/default/';
 let servicePath = {
   getArticleList: ipUrl + 'getArticleList',
-  getArticleById: ipUrl + 'getArticleById/'
+  getArticleById: ipUrl + 'getArticleById/',
+  getTypeInfo: ipUrl + 'getTypeInfo',
+  getListById: ipUrl + 'getListById/'
 };
 /* harmony default export */ __webpack_exports__["default"] = (servicePath);
 
@@ -591,38 +493,35 @@ let servicePath = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/row */ "antd/lib/row");
 /* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_row__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var antd_lib_affix__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/affix */ "antd/lib/affix");
-/* harmony import */ var antd_lib_affix__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_affix__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/col */ "antd/lib/col");
-/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_col__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var antd_lib_icon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/icon */ "antd/lib/icon");
-/* harmony import */ var antd_lib_icon__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_icon__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! antd/lib/breadcrumb */ "antd/lib/breadcrumb");
-/* harmony import */ var antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var antd_lib_icon__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/icon */ "antd/lib/icon");
+/* harmony import */ var antd_lib_icon__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_icon__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/breadcrumb */ "antd/lib/breadcrumb");
+/* harmony import */ var antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/col */ "antd/lib/col");
+/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_col__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var antd_lib_affix__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! antd/lib/affix */ "antd/lib/affix");
+/* harmony import */ var antd_lib_affix__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(antd_lib_affix__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var markdown_navbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! markdown-navbar */ "markdown-navbar");
-/* harmony import */ var markdown_navbar__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(markdown_navbar__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
-/* harmony import */ var _components_Author__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Author */ "./components/Author.js");
-/* harmony import */ var _components_Advert__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Advert */ "./components/Advert.js");
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
-/* harmony import */ var _components_tocify_tsx__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/tocify.tsx */ "./components/tocify.tsx");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _public_style_pages_detailed_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../public/style/pages/detailed.css */ "./public/style/pages/detailed.css");
-/* harmony import */ var _public_style_pages_detailed_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_public_style_pages_detailed_css__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var markdown_navbar_dist_navbar_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! markdown-navbar/dist/navbar.css */ "./node_modules/markdown-navbar/dist/navbar.css");
-/* harmony import */ var markdown_navbar_dist_navbar_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(markdown_navbar_dist_navbar_css__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! axios */ "axios");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var marked__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! marked */ "marked");
-/* harmony import */ var marked__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(marked__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var highlight_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! highlight.js */ "highlight.js");
-/* harmony import */ var highlight_js__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(highlight_js__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var highlight_js_styles_monokai_sublime_css__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! highlight.js/styles/monokai-sublime.css */ "./node_modules/highlight.js/styles/monokai-sublime.css");
-/* harmony import */ var highlight_js_styles_monokai_sublime_css__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(highlight_js_styles_monokai_sublime_css__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var _config_apiUrl__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../config/apiUrl */ "./config/apiUrl.js");
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
+/* harmony import */ var _components_Author__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Author */ "./components/Author.js");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
+/* harmony import */ var _components_tocify_tsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/tocify.tsx */ "./components/tocify.tsx");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _public_style_pages_detailed_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../public/style/pages/detailed.css */ "./public/style/pages/detailed.css");
+/* harmony import */ var _public_style_pages_detailed_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_public_style_pages_detailed_css__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var markdown_navbar_dist_navbar_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! markdown-navbar/dist/navbar.css */ "./node_modules/markdown-navbar/dist/navbar.css");
+/* harmony import */ var markdown_navbar_dist_navbar_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(markdown_navbar_dist_navbar_css__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var marked__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! marked */ "marked");
+/* harmony import */ var marked__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(marked__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var highlight_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! highlight.js */ "highlight.js");
+/* harmony import */ var highlight_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(highlight_js__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var highlight_js_styles_monokai_sublime_css__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! highlight.js/styles/monokai-sublime.css */ "./node_modules/highlight.js/styles/monokai-sublime.css");
+/* harmony import */ var highlight_js_styles_monokai_sublime_css__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(highlight_js_styles_monokai_sublime_css__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _config_apiUrl__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../config/apiUrl */ "./config/apiUrl.js");
 
 
 
@@ -644,18 +543,26 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
 
 
-
-
 function Detailed(props) {
-  const renderer = new marked__WEBPACK_IMPORTED_MODULE_16___default.a.Renderer();
-  const tocify = new _components_tocify_tsx__WEBPACK_IMPORTED_MODULE_11__["default"]();
+  const mermaid = __webpack_require__(/*! mermaid */ "mermaid");
+
+  const renderer = new marked__WEBPACK_IMPORTED_MODULE_14___default.a.Renderer();
+  const tocify = new _components_tocify_tsx__WEBPACK_IMPORTED_MODULE_9__["default"]();
 
   renderer.heading = (text, level, raw) => {
     const anchor = tocify.add(text, level);
     return `<a id="${anchor}" href="#${anchor}" class="anchor-fix"><h${level}>${text}</h${level}></a>\n`;
   };
 
-  marked__WEBPACK_IMPORTED_MODULE_16___default.a.setOptions({
+  renderer.code = function (code, language) {
+    if (code.match(/^sequenceDiagram/) || code.match(/^graph/)) {
+      return '<div class="mermaid">' + code + '</div>';
+    } else {
+      return '<pre><code>' + highlight_js__WEBPACK_IMPORTED_MODULE_15___default.a.highlightAuto(code).value + '</code></pre>';
+    }
+  };
+
+  marked__WEBPACK_IMPORTED_MODULE_14___default.a.setOptions({
     renderer: renderer,
     gfm: true,
     pedantic: false,
@@ -664,33 +571,31 @@ function Detailed(props) {
     breaks: false,
     smartLists: true,
     smartypants: false,
-    highlight: code => {
-      return highlight_js__WEBPACK_IMPORTED_MODULE_17___default.a.highlightAuto(code).value;
-    }
+    highlight: code => highlight_js__WEBPACK_IMPORTED_MODULE_15___default.a.highlightAuto(code).value
   });
-  let html = marked__WEBPACK_IMPORTED_MODULE_16___default()(props.article_content);
+  let html = marked__WEBPACK_IMPORTED_MODULE_14___default()(props.article_content);
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 58
     },
     __self: this
-  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_12___default.a, {
+  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_10___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 59
     },
     __self: this
   }, __jsx("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 60
     },
     __self: this
-  }, "Detailed")), __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }, "Detailed")), __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 63
     },
     __self: this
   }), __jsx(antd_lib_row__WEBPACK_IMPORTED_MODULE_0___default.a, {
@@ -699,143 +604,11 @@ function Detailed(props) {
     justify: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
-    },
-    __self: this
-  }, __jsx(antd_lib_col__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    className: "comm-left",
-    xs: 24,
-    sm: 24,
-    md: 16,
-    lg: 18,
-    xl: 14,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }, __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "bread-div",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  }, __jsx(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }, __jsx(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_4___default.a.Item, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60
-    },
-    __self: this
-  }, __jsx("a", {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60
-    },
-    __self: this
-  }, "\u9996\u9875")), __jsx(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_4___default.a.Item, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61
-    },
-    __self: this
-  }, __jsx("a", {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61
-    },
-    __self: this
-  }, "\u89C6\u9891\u5217\u8868")), __jsx(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_4___default.a.Item, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62
-    },
-    __self: this
-  }))), __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 65
     },
     __self: this
-  }, __jsx("div", {
-    className: "detailed-title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66
-    },
-    __self: this
-  }, "React\u5B9E\u6218\u89C6\u9891\u6559\u7A0B\uFF08\u66F4\u65B0\u7B2C10\u96C6\uFF09"), __jsx("div", {
-    className: "list-icon center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69
-    },
-    __self: this
-  }, __jsx("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: this
-  }, __jsx(antd_lib_icon__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    type: "calendar",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: this
-  }), " 2019-06-28"), __jsx("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71
-    },
-    __self: this
-  }, __jsx(antd_lib_icon__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    type: "folder",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71
-    },
-    __self: this
-  }), " \u89C6\u9891\u6559\u7A0B"), __jsx("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }, __jsx(antd_lib_icon__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    type: "fire",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }), " 6666")), __jsx("div", {
-    className: "detailed-content",
-    dangerouslySetInnerHTML: {
-      __html: html
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74
-    },
-    __self: this
-  })))), __jsx(antd_lib_col__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    className: "comm-right",
+  }, __jsx(antd_lib_col__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    className: "comm-left",
     xs: 0,
     sm: 0,
     md: 7,
@@ -843,53 +616,159 @@ function Detailed(props) {
     xl: 4,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 67
     },
     __self: this
-  }, __jsx(_components_Author__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }, __jsx(_components_Author__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 68
     },
     __self: this
-  }), __jsx(_components_Advert__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  }), __jsx(antd_lib_affix__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    offsetTop: 55,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
-    },
-    __self: this
-  }), __jsx(antd_lib_affix__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    offsetTop: 5,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 69
     },
     __self: this
   }, __jsx("div", {
     className: "detailed-nav comm-box",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 70
     },
     __self: this
   }, __jsx("div", {
     className: "nav-title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 71
     },
     __self: this
   }, "\u6587\u7AE0\u76EE\u5F55"), __jsx("div", {
     className: "toc-list",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 72
+    },
+    __self: this
+  }, tocify && tocify.render())))), __jsx(antd_lib_col__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    className: "comm-right",
+    xs: 24,
+    sm: 24,
+    md: 16,
+    lg: 18,
+    xl: 14,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
+  }, __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "bread-div",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83
+    },
+    __self: this
+  }, __jsx(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  }, __jsx(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2___default.a.Item, {
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 85
     },
     __self: this
-  }, tocify && tocify.render()))))), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  }, __jsx("a", {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }, "\u9996\u9875")), __jsx(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2___default.a.Item, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }, props.typeName), __jsx(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2___default.a.Item, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87
+    },
+    __self: this
+  }))), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "detailed-title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91
+    },
+    __self: this
+  }, props.title), __jsx("div", {
+    className: "list-icon center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94
+    },
+    __self: this
+  }, __jsx("span", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 95
+    },
+    __self: this
+  }, __jsx(antd_lib_icon__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    type: "calendar",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95
+    },
+    __self: this
+  }), " ", props.addTime, " "), __jsx("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  }, __jsx(antd_lib_icon__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    type: "folder",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  }), " ", props.typeName, " ")), __jsx("div", {
+    className: "detailed-content",
+    dangerouslySetInnerHTML: {
+      __html: html
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }))))), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 106
     },
     __self: this
   }));
@@ -898,7 +777,7 @@ function Detailed(props) {
 Detailed.getInitialProps = async context => {
   let id = context.query.id;
   const promise = new Promise(resolve => {
-    axios__WEBPACK_IMPORTED_MODULE_15___default()(_config_apiUrl__WEBPACK_IMPORTED_MODULE_19__["default"].getArticleById + id).then(res => {
+    axios__WEBPACK_IMPORTED_MODULE_13___default()(_config_apiUrl__WEBPACK_IMPORTED_MODULE_17__["default"].getArticleById + id).then(res => {
       resolve(res.data.data[0]);
     });
   });
@@ -906,17 +785,6 @@ Detailed.getInitialProps = async context => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Detailed);
-
-/***/ }),
-
-/***/ "./public/style/components/Advert.css":
-/*!********************************************!*\
-  !*** ./public/style/components/Advert.css ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
 
 /***/ }),
 
@@ -1053,17 +921,6 @@ module.exports = require("antd/lib/icon");
 
 /***/ }),
 
-/***/ "antd/lib/menu":
-/*!********************************!*\
-  !*** external "antd/lib/menu" ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("antd/lib/menu");
-
-/***/ }),
-
 /***/ "antd/lib/row":
 /*!*******************************!*\
   !*** external "antd/lib/row" ***!
@@ -1108,17 +965,6 @@ module.exports = require("lodash");
 
 /***/ }),
 
-/***/ "markdown-navbar":
-/*!**********************************!*\
-  !*** external "markdown-navbar" ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("markdown-navbar");
-
-/***/ }),
-
 /***/ "marked":
 /*!*************************!*\
   !*** external "marked" ***!
@@ -1127,6 +973,17 @@ module.exports = require("markdown-navbar");
 /***/ (function(module, exports) {
 
 module.exports = require("marked");
+
+/***/ }),
+
+/***/ "mermaid":
+/*!**************************!*\
+  !*** external "mermaid" ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("mermaid");
 
 /***/ }),
 

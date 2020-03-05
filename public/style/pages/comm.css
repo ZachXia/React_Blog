@@ -2,7 +2,7 @@ body{
   background-color: #f6f6f6;  
 }
 
-.comm-left{
+.comm-right{
   background-color: #FFF;
   padding:.3rem;
   border-radius: .3rem;
@@ -10,8 +10,9 @@ body{
 }
 
 .comm-box{
-  background-color: #FFF;
-  margin-left: .5rem;
+  background-color: #E1F0ff;
+  margin-right: .5rem;
+  margin-bottom: .5rem;
   padding:.3rem;
   border-radius: .3rem;
   border:1px solid #eee;
@@ -20,6 +21,12 @@ body{
 .comm-main{
   margin-top: .5rem;
   /* margin-left: 8rem; */
+}
+
+.bread-div{
+  padding: .5rem;
+  border-bottom:1px solid #eee;
+  background-color: #e1f0ff;
 }
 
 .list-title{

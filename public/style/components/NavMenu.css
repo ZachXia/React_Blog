@@ -1,0 +1,18 @@
+.ant-menu, .ant-menu-submenu > .ant-menu {
+    background-color: #E1F0ff;
+}
+
+.ant-menu-item{
+    font-size: 1rem !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+    background-color: #E1F0ff;
+}
+
+.ant-menu-submenu-title{
+    font-size: 1rem !important;
+}
