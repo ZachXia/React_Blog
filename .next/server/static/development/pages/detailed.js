@@ -223,7 +223,7 @@ function Footer() {
       lineNumber: 6
     },
     __self: this
-  }, "\u7CFB\u7EDF\u7531React+Node+Ant Design\u9A71\u52A8"));
+  }, "ZachXia \xA92020 Powered by React + Node + Ant UED"));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -491,44 +491,47 @@ let servicePath = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/row */ "antd/lib/row");
-/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_row__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var antd_lib_icon__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/icon */ "antd/lib/icon");
-/* harmony import */ var antd_lib_icon__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_icon__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/breadcrumb */ "antd/lib/breadcrumb");
-/* harmony import */ var antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/col */ "antd/lib/col");
-/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_col__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var antd_lib_affix__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! antd/lib/affix */ "antd/lib/affix");
-/* harmony import */ var antd_lib_affix__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(antd_lib_affix__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
-/* harmony import */ var _components_Author__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Author */ "./components/Author.js");
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
-/* harmony import */ var _components_tocify_tsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/tocify.tsx */ "./components/tocify.tsx");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _public_style_pages_detailed_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../public/style/pages/detailed.css */ "./public/style/pages/detailed.css");
-/* harmony import */ var _public_style_pages_detailed_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_public_style_pages_detailed_css__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var markdown_navbar_dist_navbar_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! markdown-navbar/dist/navbar.css */ "./node_modules/markdown-navbar/dist/navbar.css");
-/* harmony import */ var markdown_navbar_dist_navbar_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(markdown_navbar_dist_navbar_css__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! axios */ "axios");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var marked__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! marked */ "marked");
-/* harmony import */ var marked__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(marked__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var highlight_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! highlight.js */ "highlight.js");
-/* harmony import */ var highlight_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(highlight_js__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var highlight_js_styles_monokai_sublime_css__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! highlight.js/styles/monokai-sublime.css */ "./node_modules/highlight.js/styles/monokai-sublime.css");
-/* harmony import */ var highlight_js_styles_monokai_sublime_css__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(highlight_js_styles_monokai_sublime_css__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var _config_apiUrl__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../config/apiUrl */ "./config/apiUrl.js");
+/* harmony import */ var antd_lib_back_top__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/back-top */ "antd/lib/back-top");
+/* harmony import */ var antd_lib_back_top__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_back_top__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/row */ "antd/lib/row");
+/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_row__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var antd_lib_icon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/icon */ "antd/lib/icon");
+/* harmony import */ var antd_lib_icon__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_icon__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/breadcrumb */ "antd/lib/breadcrumb");
+/* harmony import */ var antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! antd/lib/col */ "antd/lib/col");
+/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(antd_lib_col__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var antd_lib_affix__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! antd/lib/affix */ "antd/lib/affix");
+/* harmony import */ var antd_lib_affix__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(antd_lib_affix__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
+/* harmony import */ var _components_Author__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Author */ "./components/Author.js");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
+/* harmony import */ var _components_tocify_tsx__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/tocify.tsx */ "./components/tocify.tsx");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _public_style_pages_detailed_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../public/style/pages/detailed.css */ "./public/style/pages/detailed.css");
+/* harmony import */ var _public_style_pages_detailed_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_public_style_pages_detailed_css__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var markdown_navbar_dist_navbar_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! markdown-navbar/dist/navbar.css */ "./node_modules/markdown-navbar/dist/navbar.css");
+/* harmony import */ var markdown_navbar_dist_navbar_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(markdown_navbar_dist_navbar_css__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var marked__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! marked */ "marked");
+/* harmony import */ var marked__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(marked__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var highlight_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! highlight.js */ "highlight.js");
+/* harmony import */ var highlight_js__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(highlight_js__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var highlight_js_styles_monokai_sublime_css__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! highlight.js/styles/monokai-sublime.css */ "./node_modules/highlight.js/styles/monokai-sublime.css");
+/* harmony import */ var highlight_js_styles_monokai_sublime_css__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(highlight_js_styles_monokai_sublime_css__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _config_apiUrl__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../config/apiUrl */ "./config/apiUrl.js");
+
 
 
 
 
 
 var _jsxFileName = "D:\\Web\\ReactProjects\\react_blog\\blog\\pages\\detailed.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 
 
 
@@ -546,8 +549,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 function Detailed(props) {
   const mermaid = __webpack_require__(/*! mermaid */ "mermaid");
 
-  const renderer = new marked__WEBPACK_IMPORTED_MODULE_14___default.a.Renderer();
-  const tocify = new _components_tocify_tsx__WEBPACK_IMPORTED_MODULE_9__["default"]();
+  const renderer = new marked__WEBPACK_IMPORTED_MODULE_15___default.a.Renderer();
+  const tocify = new _components_tocify_tsx__WEBPACK_IMPORTED_MODULE_10__["default"]();
 
   renderer.heading = (text, level, raw) => {
     const anchor = tocify.add(text, level);
@@ -558,11 +561,11 @@ function Detailed(props) {
     if (code.match(/^sequenceDiagram/) || code.match(/^graph/)) {
       return '<div class="mermaid">' + code + '</div>';
     } else {
-      return '<pre><code>' + highlight_js__WEBPACK_IMPORTED_MODULE_15___default.a.highlightAuto(code).value + '</code></pre>';
+      return '<pre><code>' + highlight_js__WEBPACK_IMPORTED_MODULE_16___default.a.highlightAuto(code).value + '</code></pre>';
     }
   };
 
-  marked__WEBPACK_IMPORTED_MODULE_14___default.a.setOptions({
+  marked__WEBPACK_IMPORTED_MODULE_15___default.a.setOptions({
     renderer: renderer,
     gfm: true,
     pedantic: false,
@@ -571,16 +574,16 @@ function Detailed(props) {
     breaks: false,
     smartLists: true,
     smartypants: false,
-    highlight: code => highlight_js__WEBPACK_IMPORTED_MODULE_15___default.a.highlightAuto(code).value
+    highlight: code => highlight_js__WEBPACK_IMPORTED_MODULE_16___default.a.highlightAuto(code).value
   });
-  let html = marked__WEBPACK_IMPORTED_MODULE_14___default()(props.article_content);
+  let html = marked__WEBPACK_IMPORTED_MODULE_15___default()(props.article_content);
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 58
     },
     __self: this
-  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_10___default.a, {
+  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_11___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 59
@@ -592,13 +595,13 @@ function Detailed(props) {
       lineNumber: 60
     },
     __self: this
-  }, "Detailed")), __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, props.title, " | ZachXia\u7684\u535A\u5BA2")), __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 63
     },
     __self: this
-  }), __jsx(antd_lib_row__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  }), __jsx(antd_lib_row__WEBPACK_IMPORTED_MODULE_1___default.a, {
     className: "comm-main",
     type: "flex",
     justify: "center",
@@ -607,7 +610,7 @@ function Detailed(props) {
       lineNumber: 65
     },
     __self: this
-  }, __jsx(antd_lib_col__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  }, __jsx(antd_lib_col__WEBPACK_IMPORTED_MODULE_4___default.a, {
     className: "comm-left",
     xs: 0,
     sm: 0,
@@ -619,13 +622,13 @@ function Detailed(props) {
       lineNumber: 67
     },
     __self: this
-  }, __jsx(_components_Author__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }, __jsx(_components_Author__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 68
     },
     __self: this
-  }), __jsx(antd_lib_affix__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  }), __jsx(antd_lib_affix__WEBPACK_IMPORTED_MODULE_5___default.a, {
     offsetTop: 55,
     __source: {
       fileName: _jsxFileName,
@@ -653,7 +656,7 @@ function Detailed(props) {
       lineNumber: 72
     },
     __self: this
-  }, tocify && tocify.render())))), __jsx(antd_lib_col__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  }, tocify && tocify.render())))), __jsx(antd_lib_col__WEBPACK_IMPORTED_MODULE_4___default.a, {
     className: "comm-right",
     xs: 24,
     sm: 24,
@@ -678,13 +681,13 @@ function Detailed(props) {
       lineNumber: 83
     },
     __self: this
-  }, __jsx(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, __jsx(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_3___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 84
     },
     __self: this
-  }, __jsx(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2___default.a.Item, {
+  }, __jsx(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 85
@@ -697,13 +700,13 @@ function Detailed(props) {
       lineNumber: 85
     },
     __self: this
-  }, "\u9996\u9875")), __jsx(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2___default.a.Item, {
+  }, "\u9996\u9875")), __jsx(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 86
     },
     __self: this
-  }, props.typeName), __jsx(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_2___default.a.Item, {
+  }, props.typeName), __jsx(antd_lib_breadcrumb__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 87
@@ -735,7 +738,7 @@ function Detailed(props) {
       lineNumber: 95
     },
     __self: this
-  }, __jsx(antd_lib_icon__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, __jsx(antd_lib_icon__WEBPACK_IMPORTED_MODULE_2___default.a, {
     type: "calendar",
     __source: {
       fileName: _jsxFileName,
@@ -748,7 +751,7 @@ function Detailed(props) {
       lineNumber: 96
     },
     __self: this
-  }, __jsx(antd_lib_icon__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, __jsx(antd_lib_icon__WEBPACK_IMPORTED_MODULE_2___default.a, {
     type: "folder",
     __source: {
       fileName: _jsxFileName,
@@ -765,10 +768,16 @@ function Detailed(props) {
       lineNumber: 99
     },
     __self: this
-  }))))), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }))))), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_9__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 106
+    },
+    __self: this
+  }), __jsx(antd_lib_back_top__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107
     },
     __self: this
   }));
@@ -777,7 +786,7 @@ function Detailed(props) {
 Detailed.getInitialProps = async context => {
   let id = context.query.id;
   const promise = new Promise(resolve => {
-    axios__WEBPACK_IMPORTED_MODULE_13___default()(_config_apiUrl__WEBPACK_IMPORTED_MODULE_17__["default"].getArticleById + id).then(res => {
+    axios__WEBPACK_IMPORTED_MODULE_14___default()(_config_apiUrl__WEBPACK_IMPORTED_MODULE_18__["default"].getArticleById + id).then(res => {
       resolve(res.data.data[0]);
     });
   });
@@ -874,6 +883,17 @@ module.exports = require("antd/lib/anchor");
 /***/ (function(module, exports) {
 
 module.exports = require("antd/lib/avatar");
+
+/***/ }),
+
+/***/ "antd/lib/back-top":
+/*!************************************!*\
+  !*** external "antd/lib/back-top" ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/back-top");
 
 /***/ }),
 

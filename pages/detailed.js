@@ -4,7 +4,7 @@ import Author from '../components/Author'
 import Footer from '../components/Footer'
 import Tocify from '../components/tocify.tsx'
 
-import {Row, Col, Breadcrumb, Icon, Affix} from 'antd'
+import {Row, Col, Breadcrumb, Icon, Affix, BackTop} from 'antd'
 import Head from 'next/head'
 import '../public/style/pages/detailed.css'
 import 'markdown-navbar/dist/navbar.css'
@@ -57,7 +57,7 @@ function Detailed(props){
     return (
         <div>
             <Head>
-                <title>Detailed</title>
+                <title>{props.title} | ZachXia的博客</title>
             </Head>
 
             <Header />
@@ -104,6 +104,7 @@ function Detailed(props){
             </Row>
 
             <Footer />
+            <BackTop />
 
 
         </div>

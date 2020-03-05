@@ -6,7 +6,7 @@ import Header from '../components/Header'
 import Author from '../components/Author'
 import Footer from '../components/Footer'
 import NavMenu from '../components/NavMenu'
-import {Row, Col, List, Icon} from 'antd'
+import {Row, Col, List, Icon, BackTop} from 'antd'
 import Head from 'next/head'
 import Link from 'next/link'
 import servicePath from '../config/apiUrl'
@@ -39,7 +39,7 @@ function Home(list){
     return (
         <div>
             <Head>
-                <title>Home</title>
+                <title>首页 | ZachXia的博客</title>
             </Head>
             <Header />
             <Row className='comm-main' type='flex' justify='center'>
@@ -81,6 +81,7 @@ function Home(list){
             </Row>
             
             <Footer />
+            <BackTop />
 
         </div>
         

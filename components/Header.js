@@ -15,19 +15,7 @@ function Header() {
                     {/* <span className='header-txt'>专注前端开发</span> */}
                 </Col>
                 <Col xs={0} sm={0} md={14} lg={8} xl={6}>
-                    {/* <Menu mode='horizontal' onClick={handleClick}>
-                        <Menu.Item key='home'>
-                            
-                            首页
-                            
-                        </Menu.Item>
-
-                        {
-                            navArray.map((item)=>{
-                                return(<Menu.Item key={item.id}>{item.typeName}</Menu.Item>)
-                            })
-                        }
-                    </Menu> */}
+                    
                 </Col>
             </Row>
         </div>

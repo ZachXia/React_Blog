@@ -2,7 +2,7 @@ import React, {useState, useEffect}from 'react';
 import Header from '../components/Header'
 import Author from '../components/Author'
 import Footer from '../components/Footer'
-import {Row, Col, List, Icon, Breadcrumb} from 'antd'
+import {Row, Col, List, Icon, Breadcrumb, BackTop} from 'antd'
 import Head from 'next/head'
 import Link from 'next/link'
 import axios from 'axios'
@@ -19,7 +19,7 @@ function MyList(list){
     return (
         <div>
             <Head>
-                <title>Home</title>
+                <title>分类 | ZachXia的博客</title>
             </Head>
 
             <Header></Header>
@@ -63,6 +63,7 @@ function MyList(list){
             </Row>
 
             <Footer />
+            <BackTop />
 
         </div>
         
